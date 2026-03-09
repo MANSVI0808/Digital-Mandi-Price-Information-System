@@ -1,50 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Agriculture Market</title>
+<title>India Agriculture Market</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>🌾 Farmer Agriculture Market</h1>
+<h1>🌾 India Agriculture Market</h1>
 
-<h2>Daily Crop Prices</h2>
+<input type="text" id="search" placeholder="Search crop..." onkeyup="searchCrop()">
 
-<table>
+<table id="priceTable">
 <tr>
 <th>Crop</th>
+<th>State</th>
 <th>Price (₹)</th>
 </tr>
-
-<tr>
-<td>Wheat</td>
-<td>2200</td>
-</tr>
-
-<tr>
-<td>Rice</td>
-<td>2000</td>
-</tr>
-
-<tr>
-<td>Cotton</td>
-<td>6500</td>
-</tr>
-
 </table>
 
-<h2>Fertilizers Shop</h2>
+<h2>🧪 Fertilizer Shop</h2>
 
 <div class="shop">
-<p>Urea - ₹300</p>
-<button>Buy</button>
-
-<p>DAP - ₹1200</p>
+<div class="item">
+<h3>Urea</h3>
+<p>₹300</p>
 <button>Buy</button>
 </div>
 
-<h2>Sell Your Crops</h2>
+<div class="item">
+<h3>DAP</h3>
+<p>₹1200</p>
+<button>Buy</button>
+</div>
+</div>
+
+<h2>👨‍🌾 Sell Your Crop</h2>
 
 <input type="text" placeholder="Your Name"><br><br>
 <input type="text" placeholder="Crop Name"><br><br>
